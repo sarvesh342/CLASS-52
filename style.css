@@ -1,0 +1,53 @@
+h1{color:aqua}
+            *{
+                border :solid;
+            }
+.style2{
+    background-color: aqua;
+   
+}
+.header{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer{
+    display:flex;
+    justify-content: flex-end;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+.main{
+    background-color: #f05020;
+    
+}
+p{
+    padding-left: 50px;
+}
+a:link{
+    color:blue
+}
+a:visited{
+    color:red
+}
+.item{
+position: relative;
+}
+.item p{
+ position:absolute;
+ top: 50%;
+ left: 20%;   
+transform: translate(-20%,-20%);
+opacity: 0;
+}
+.item:hover p{
+opacity: 1;
+}
+.item:hover img {
+opacity: 0.4;
+}
